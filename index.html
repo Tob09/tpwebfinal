@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+
+<body>
+    <nav class="border fixed split-nav">
+        <div class="nav-brand">
+            <h3><a href="#" class="no-hover">Blancanieves y los 7 enanitos</a></h3>
+        </div>
+        <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1">
+            <label for="collapsible1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="collapsible-body">
+                <div class="fondo-menu"></div>
+                <ul class="inline">
+                    <li><a href="#Historia">Historia</a></li>
+                    <li><a href="#Temática">Temática</a></li>
+                    <li><a href="#Proceso">Proceso de producción</a></li>
+                    <li><a href="#Integrantes">Integrantes</a></li>
+                    <li><a href="#CardJuego">Aventura Gráfica</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid padding">
+        <div class="row">
+            <div class="sm-12 md-7">
+                <img src="img/Poster_película.jpg" alt="Imagen del Póster de la película de Blancanieves"
+                    class="no-border">
+            </div>
+            <div class="sm-12 md-4">
+                <div class="card" style="width: 20rem;" id="CardJuego">
+                    <img src="img/diapositiva_juego.PNG" alt="Imagen de una diapositiva dentro del juego">
+                    <div class="card-body">
+                        <h4 class="card-title">Aventura Gráfica interactiva</h4>
+                        <p class="card-text">Acompaña a Blancanieves en esta gran aventura (incluye tres finales)</p>
+                    </div>
+                </div>
+
+                <div class="row flex-center child-borders">
+                    <label class="paper-btn margin" for="modal-1">Haz click aquí para jugar</label>
+                </div>
+                <input class="modal-state" id="modal-1" type="checkbox">
+                <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                        <label class="btn-close" for="modal-1">X</label>
+                        <iframe src="p5/index.html" frameborder="0" width="650" height="490"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <article class="article" id="Historia">
+            <h2 class="mi-titulo">Historia</h2>
+            <p>Blancanieves es uno de los relatos más reconocidos del folclore europeo. Su versión más difundida
+                proviene de Kinder- und Hausmärchen (1812), la célebre recopilación de cuentos realizada por los
+                hermanos Grimm. Estos filólogos alemanes tomaron historias transmitidas oralmente por campesinos, amas
+                de casa y narradores populares, y las adaptaron para preservarlas como parte del patrimonio cultural
+                alemán.</p>
+            <p>Con el tiempo, Blancanieves se fue adaptando a nuevos públicos y sensibilidades. A medida que los cuentos
+                infantiles comenzaron a orientarse hacia un público más joven, el relato se suavizó, y sus elementos más
+                siniestros se moderaron para resaltar la inocencia, la magia y la moralidad. Durante el siglo XIX y XX,
+                Blancanieves se convirtió en un símbolo del romanticismo y la pureza, y pasó a formar parte del
+                imaginario colectivo europeo.</p>
+            <p>El punto de inflexión más importante en la historia del personaje fue la película animada “Blancanieves y
+                los 7 enanitos” (1937), producida por Walt Disney y siendo el primer largometraje animado en la historia
+                del cine.
+                Desde entonces, la versión de Disney se convirtió en la representación más conocida a nivel mundial y
+                moldeó la manera en que generaciones enteras imaginan a Blancanieves.</p>
+            <p>A partir de mediados del siglo XX, Blancanieves se expandió a múltiples expresiones artísticas y
+                comerciales como adaptaciones para teatro, óperas y musicales, producciones infantiles, cuentos
+                ilustrados, novelas juveniles, reescrituras modernas y parodias, apariciones en videojuegos clásicos y
+                modernos, apps interactivas y contenidos educativos.</p>
+        </article>
+
+
+        <div class="row">
+            <div class="sm-12 md-5">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body" id="Proceso">
+                        <h4 class="card-title">Proceso de producción</h4>
+                        <p class="card-text">Para este proyecto, primero recibimos la temática. Luego de eso nos
+                            pusimos
+                            a imaginar cómo
+                            podríamos
+                            plasmar la historia original dentro de una novela visual, ¿cuántas pantallas tendría?
+                            ¿qué
+                            dialogos
+                            habría? ¿qué finales alternativos podría tener la historia? ¿cómo podríamos
+                            programarlo?. Y
+                            luego de
+                            responder todas esas dudas y compartir ideas, hicimos un diagrama de flujo para
+                            organizarnos
+                            mejor. Con
+                            esto hecho, procedimos a buscar las imágenes que íbamos a usar y editar las que fueran
+                            necesarias.
+                            También diseñar las pantallas para los finales, cuidando que compartan la estética
+                            visual de
+                            la
+                            historia. Después de eso tocó programar y luego de unas semanas de trabajo a prueba y
+                            error,
+                            logramos
+                            hacer una aventura gráfica funcional, con una estética coherente y con la que
+                            estuvieramos
+                            conformes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sm-12 md-5">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body" id="Temática">
+                        <h4 class="card-title">Temática</h4>
+                        <p class="card-text">En cuanto a la elección de la temática, esta fue otorgada al azar por
+                            el
+                            profesor a cargo de la
+                            clase. Lo
+                            positivo de que me tocara esta historia es que ya la conocía y eso me facilitó un poco
+                            el
+                            trabajo de
+                            investigación. Además, al tener una película, pude sacar el contenido visual de ahí para
+                            crear
+                            la
+                            aventura, en vez de tener que recurrir a dibujar muchos escenarios o a herramientas de
+                            inteligencia
+                            artificial (lo cual hubiera sido un problema ya que por políticas de Disney no se pueden
+                            generar
+                            imágenes del personaje).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="text-align: center;">
+            <ul class="breadcrumb border">
+                <p>Tanto la Aventura Visual como esta página web fueron realizadas por el alumno Tobías Kai Aguado
+                    (2025).</p>
+            </ul>
+        </div>
+
+</body>
+
+</html>
